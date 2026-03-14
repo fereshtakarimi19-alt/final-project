@@ -16,12 +16,12 @@ showLoginBtn.addEventListener('click', () => {
     signupForm.classList.add('hidden'); // Hide signup form
 });
 // ////////////////////////////////
-document.getElementById("back").onclick
-=function(){
-    window.location.href = "index.html"
-}
+// document.getElementById("back").onclick
+// =function(){
+//     window.location.href = "index.html"
+// }
 // ///////////////
 document.getElementById("booktrip").onclick
-=function(){
-    window.location.href = "form.html"
-}
+= () => {
+        window.location.href = "form.html";
+    }

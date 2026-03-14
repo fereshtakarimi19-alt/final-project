@@ -13,6 +13,12 @@ navLinks.addEventListener("click",(e)=>{
     navLinks.classList.remove("open");
     menuBtnIcon.setAttribute("class","ri-menu-line")
 })
+// /////////////////////////
+document.getElementById("booktrip").onclick
+= () => {
+        window.location.href = "form.html";
+    }
+///////////////
 
 
 const scrollRevealOption={
